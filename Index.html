@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Steven Odhiambo</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://kit.fontawesome.com/0cbec4ac3f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Portfolio Logo2.png" alt="logo" class="logo">
+                <ul class="nav-links">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-content">
+                <div class="header-text">
+                    <p>Security Operation Centre Analyst</p>
+                    <h1>Hi, I'm <span>Steven</span> <br>Odhiambo From Kenya</h1>
+                </div>
+                <div class="header-image">
+                    <img src="images/pexels-tima-miroshnichenko-5380664.jpg" alt="Header Image">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Passport.png" alt="Steven Odhiambo">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Passionate Junior Cybersecurity Analyst
+                        with a strong foundation and proficiency in
+                        cybersecurity, specializing in vulnerability
+                        assessment and incident response.
+                        Actively pursuing opportunities to enhance
+                        cybersecurity expertise and stay updated
+                        with the latest trends and advancements
+                        through diverse courses, certifications and
+                        personal projects.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Network Monitoring</span><br>Monitoring of networks to check for threat actors</li>
+                            <li><span>Vulnerability Assessment</span><br>Isolating a vulnerability and making the necessary assessments</li>
+                            <li><span>Incident Response</span><br>Responding to incidents after their occurrence to reduce further disasters</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="Experience">
+                        <ul>
+                            <li><span>May 2024 - December 2024</span><br>ICT Support Intern at Kenya Academy of Sports</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="Education">
+                        <ul>
+                            <li><span>2020 - 2024</span><br>BSc Mathematics & Computer Science at Jomo Kenyatta University of Agriculture and Technology</li>
+                            <li><span>2025 - Current</span><br>Software Engineering from PLP Academy</li>
+                            <li><span>2025 - Current</span><br>Security Operations Analyst from CyberShujaa</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+     <div id="Projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+                <div class="project-card">
+                    <h2>Vulnerability Assessment Lab | Nairobi</h2>
+                    <p>• Set up and configured a Windows virtual machine (VM) on VirtualBox, creating
+                        a secure and isolated environment for testing and analysis.<br>
+                        • Conducted comprehensive vulnerability scans using Nessus to identify and
+                        assess potential security risks and weaknesses.<br>
+                        • Developed and implemented effective remediation strategies to address
+                        identified vulnerabilities, minimizing potential risks and strengthening system
+                        resilience.</p>
+                    <a href="#" class="btn btn-view-project">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h2>Multi Honeypot Platform | Nairobi</h2>
+                    <p>• Deployed T-Pot on Azure Cloud, bolstering security measures and enabling
+                        advanced threat detection and analysis.<br>
+                        • Monitored and analyzed honeypot data generated by T-Pot, enabling early
+                        detection and response to potential cyber threats.</p>
+                    <a href="#" class="btn btn-view-project">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h2>SIEM Implementation in Azure Cloud | Nairobi</h2>
+                    <p>• Successfully deployed Microsoft Sentinel, a SIEM solution in Azure Cloud,
+                        fortifying cloud’s cybersecurity capabilities and enabling proactive threat
+                        detection and response.<br>
+                        • Enhanced threat detection with custom KQL analytics rules, enabling swift
+                        incident response to safeguard assets.<br>
+                        • Conducted incident investigations using SIEM tools and techniques to analyze
+                        cybersecurity incidents.<br>
+                        • Implemented remediation actions to mitigate and resolve identified
+                        cybersecurity incidents.</p>
+                    <a href="#" class="btn btn-view-project">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- Contact Section -->
+        <div id="Contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i> odhiambosteven761@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +254794982921</p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/Cybersecurity Analyst.pdf" download class="btn btn-download-cv">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn-submit">Submit</button>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-content");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw8IUVtl3uyDInyRTnRHSWXABpHSyx9Q_KPk0gZ1vwPVB49ZLPdYxgNpf4wBrXlOrTW/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+
+    })
+    </script>
+   
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="container">
+            <p>Copyright 2025 @Steven. All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
