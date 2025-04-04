@@ -2,7 +2,7 @@
 
 This is a personal portfolio website for showcasing my skills, projects, and experience as a Junior Cybersecurity Analyst. The website is designed to be responsive, visually appealing, and easy to navigate
 
-##Features
+#Features
 ##Home Section:
 A welcoming header with a professional introduction and a profile image.
 ##About Section:
