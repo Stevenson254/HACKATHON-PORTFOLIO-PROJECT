@@ -54,7 +54,7 @@ HACKATHON( PORTFOLIO)/
 
 ## 📸 Screenshots
 
-> _Add screenshots of your Home, About, Projects, and Contact sections here for a visual overview._
+https://github.com/Stevenson254/HACKATHON-PORTFOLIO-PROJECT/blob/0b1cb48aa7df8f5e7c798e078589a25dd196395a/Screenshot%202025-05-26%20180307.png
 
 ---
 
