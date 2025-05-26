@@ -58,7 +58,7 @@ HACKATHON( PORTFOLIO)/
 
 ![image alt](https://github.com/Stevenson254/HACKATHON-PORTFOLIO-PROJECT/blob/13a9ed11fec6d2189f8ab721b3a9f3b2ce7ecb58/Screenshot%202025-05-26%20180321.png)
 ![image alt](https://github.com/Stevenson254/HACKATHON-PORTFOLIO-PROJECT/blob/master/Screenshot%202025-05-26%20180333.png?raw=true)
-![image alt](![image alt]
+![image alt](https://github.com/Stevenson254/HACKATHON-PORTFOLIO-PROJECT/blob/master/Screenshot%202025-05-26%20180351.png?raw=true)
 
 ---
 
